@@ -1299,7 +1299,7 @@ def Subscraption():
 	key1=open('/data/data/com.termux/files/usr/bin/.mrALAMIM-cov', 'r').read()
 	clear()
 	print(logo)
-	r1=requests.get("https://github.com/atalmin/atalamin.git").text
+	r1=requests.get("https://github.com/atalmin/atalamin1.git").text
 	if key1 in r1:
 		os.system('clear')
 		print(logo)
